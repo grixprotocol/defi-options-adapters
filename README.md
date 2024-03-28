@@ -41,7 +41,7 @@ Before you can make changes, you'll need to fork the repository to your own GitH
 
 ### Step 4: Implement Your Solution
 
-Create a new branch in your forked repository for your work. Using TypeScript, JavaScript, or Python, implement the functionality you've chosen. Make sure your code is clean, well-commented, and follows our [coding standards](#coding-standards).
+Create a new branch in your forked repository for your work. While we prefer solutions implemented in TypeScript for consistency and maintainability, we welcome additional scripts in JavaScript and Python. Implement the functionality you've chosen using one of these languages.
 
 ### Step 5: Test Your Code
 
@@ -61,6 +61,6 @@ After your contribution is accepted, we'll take it from there to integrate it in
 
 ## Coding Standards
 
-While we value consistency and maintainability, we also aim to be flexible to maximize community involvement. Our coding standards are a guide, not a strict rulebook. We're open to different styles and approaches, especially if they lead to innovative solutions. [Find our style guide here](#).
+While we value consistency and maintainability, we also aim to be flexible to maximize community involvement. Our coding standards are a guide, not a strict rulebook. We're open to different styles and approaches, especially if they lead to innovative solutions.
 
 Thank you for considering contributing to our project. Your efforts will help us build a more open, efficient, and community-driven framework for DeFi options adapters.
