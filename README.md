@@ -22,6 +22,8 @@ For guidelines on how to contribute to this project, please refer to our main co
 
 [Contribution Guidelines](https://github.com/grixprotocol/defi-options-adapters/blob/main/CONTRIBUTE.md)
 
+For contribution example, see this [PR by Thetanuts](https://github.com/grixprotocol/defi-options-adapters/pull/4)
+
 ## Important Note
 
 While we value consistency and maintainability, we also aim to be flexible to maximize community involvement. Our coding standards are a guide, not a strict rulebook. We're open to different styles and approaches, especially if they lead to innovative solutions.
