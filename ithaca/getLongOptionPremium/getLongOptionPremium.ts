@@ -37,7 +37,7 @@ const createClientOrderId = (value: number = 101): number => {
 	return Date.now() * Math.pow(2, 10) + value;
 };
 
-export const calculatePremiumForOption = async (expiry: number, strike: number) => {
+export const getLongOptionPremium = async (expiry: number, strike: number) => {
 	try {
 		const {
 			data: { payload: contractList }
