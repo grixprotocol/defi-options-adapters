@@ -31,3 +31,8 @@ For contribution example, see this [PR by Thetanuts](https://github.com/grixprot
 While we value consistency and maintainability, we also aim to be flexible to maximize community involvement. Our coding standards are a guide, not a strict rulebook. We're open to different styles and approaches, especially if they lead to innovative solutions.
 
 Thank you for considering contributing to our project. Your efforts will help us build a more open, efficient, and community-driven framework for DeFi options adapters.
+
+![Image](https://cdn-icons-mp4.flaticon.com/512/11614/11614839.mp4 "test"){width=300 height=200}
+<img src="https://cdn-icons-mp4.flaticon.com/512/11614/11614839.mp4" width="50" height="50" />
+![Image](https://cdn-icons-mp4.flaticon.com/512/11614/11614839.mp4 "test")
+![Image](https://cdn-icons-mp4.flaticon.com/512/11614/11614839.mp4)
