@@ -38,6 +38,21 @@ function getLongOptionPremium(strikePrice: number, expiryDate: string): number {
     return 0;
 }
 
+
+function getShortOptionPremium(strikePrice: number, expiryDate: string): number {
+    /**
+     * Get the premium for a short option for a given strike price and expiry date.
+     * 
+     * Parameters:
+     * strikePrice (number): The strike price of the option.
+     * expiryDate (string): The expiry date of the option.
+     * 
+     * Returns:
+     * number: The premium for the short option.
+     */
+    return 0;
+}
+
 function buyOptionContract(strikePrice: number, expiryDate: string, amount: number): object {
     /**
      * Buy an option contract for a given strike price, expiry date, and amount.
