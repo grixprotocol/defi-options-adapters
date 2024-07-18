@@ -32,7 +32,4 @@ While we value consistency and maintainability, we also aim to be flexible to ma
 
 Thank you for considering contributing to our project. Your efforts will help us build a more open, efficient, and community-driven framework for DeFi options adapters.
 
-![Image](https://cdn-icons-mp4.flaticon.com/512/11614/11614839.mp4 "test"){width=300 height=200}
-<img src="https://cdn-icons-mp4.flaticon.com/512/11614/11614839.mp4" width="50" height="50" />
-![Image](https://cdn-icons-mp4.flaticon.com/512/11614/11614839.mp4 "test")
-![Image](https://cdn-icons-mp4.flaticon.com/512/11614/11614839.mp4)
+<img src="https://cdn-icons-gif.flaticon.com/512/11614/11614839.mp4" alt="Animated Icon" width="20" height="20">
