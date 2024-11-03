@@ -1,8 +1,35 @@
-# Adapters
+# Grix Protocol Adapters
 
-This repository will host adapters to integrate our system and various DeFi platforms.
+Welcome to the Grix Protocol Adapters repository! This project is designed to facilitate the integration of various DeFi options protocols with the Grix platform, enabling easy and smooth quoting of options premium prices.
 
-## Integrations
+## Grix Protocol Integration Kit
+
+This guide will help you integrate your DeFi options protocol with Grix, making it easy for Grix users to reach your protocol's options.
+
+### How Grix Works
+
+Fetching Expiry Dates: Grix retrieves all available expiry dates for options, ensuring you have the latest data.
+Listing Strike Prices by Expiry: For each expiry date, Grix lists all possible strike prices, giving you a comprehensive view of the market.
+Calculating Option Premiums: Grix calculates both long and short option premiums, providing accurate pricing information for your users.
+
+### Quick Contribution Guide
+
+- Fork the Repository: Start by forking the [Grix Protocol Adapters Repository](https://github.com/grixprotocol/defi-options-adapters).
+- Develop Your Adapter: Implement the necessary functions for expiry dates, strike prices, and premiums.
+- Submit Your Work: Create a pull request with your adapter and documentation.
+- Engage with the Community: Join discussions and contribute to the ongoing development.
+- For detailed guidelines, please refer to our [Contribution Guidelines](https://github.com/grixprotocol/defi-options-adapters/blob/main/CONTRIBUTE.md).
+
+For contribution example, see this [PR by Thetanuts](https://github.com/grixprotocol/defi-options-adapters/pull/4) or this [PR by Arrow Market](https://github.com/grixprotocol/defi-options-adapters/pull/10)
+
+### Please Note
+
+While we value consistency and maintainability, we also aim to be flexible to maximize community involvement.
+Our coding standards are a guide, not a strict rulebook. We're open to different styles and approaches, especially if they lead to innovative solutions.
+
+Thank you for contributing to Grix! Your efforts help us build a robust, community-driven DeFi options framework.
+
+## Protocols Integration Table
 
 <!-- INTEGRATIONS_TABLE_SECTION -->
 
@@ -20,19 +47,3 @@ This repository will host adapters to integrate our system and various DeFi plat
 | **Hegic**         | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/hegic/fetchExpiryDates/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/hegic/listStrikePricesByExpiry/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/hegic/getLongOptionPremium/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/hegic/getShortOptionPremium/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/hegic/buyOptionContract/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/hegic/addOptionToPosition/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/hegic/exerciseOptionContract/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/hegic/sellOptionBackToIssuer/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/hegic/transferOptionOwnership/CONTRIBUTE.md)        |
 | **Gamma Swap**    | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/gamma-swap/fetchExpiryDates/CONTRIBUTE.md)   | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/gamma-swap/listStrikePricesByExpiry/CONTRIBUTE.md)   | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/gamma-swap/getLongOptionPremium/CONTRIBUTE.md)   | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/gamma-swap/getShortOptionPremium/CONTRIBUTE.md)   | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/gamma-swap/buyOptionContract/CONTRIBUTE.md)   | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/gamma-swap/addOptionToPosition/CONTRIBUTE.md)   | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/gamma-swap/exerciseOptionContract/CONTRIBUTE.md)   | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/gamma-swap/sellOptionBackToIssuer/CONTRIBUTE.md)   | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/gamma-swap/transferOptionOwnership/CONTRIBUTE.md)   |
 | **Siren**         | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/siren/fetchExpiryDates/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/siren/listStrikePricesByExpiry/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/siren/getLongOptionPremium/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/siren/getShortOptionPremium/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/siren/buyOptionContract/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/siren/addOptionToPosition/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/siren/exerciseOptionContract/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/siren/sellOptionBackToIssuer/CONTRIBUTE.md)        | [⏳](https://github.com/grixprotocol/defi-options-adapters/blob/main/siren/transferOptionOwnership/CONTRIBUTE.md)        |
-
-<!-- INTEGRATIONS_TABLE_SECTION -->
-
-## How to Participate
-
-For guidelines on how to contribute to this project, please refer to our main contribution document:
-
-[Contribution Guidelines](https://github.com/grixprotocol/defi-options-adapters/blob/main/CONTRIBUTE.md)
-
-For contribution example, see this [PR by Thetanuts](https://github.com/grixprotocol/defi-options-adapters/pull/4)
-
-## Important Note
-
-While we value consistency and maintainability, we also aim to be flexible to maximize community involvement. Our coding standards are a guide, not a strict rulebook. We're open to different styles and approaches, especially if they lead to innovative solutions.
-
-Thank you for considering contributing to our project. Your efforts will help us build a more open, efficient, and community-driven framework for DeFi options adapters.
