@@ -1,0 +1,38 @@
+{
+    "1": {
+        "ETH": {
+            "support_actions": {
+                "long": [
+                    "buy_call",
+                    "buy_put",
+                    "exercise_call",
+                    "exercise_put",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        },
+        "BTC": {
+            "support_actions": {
+                "long": [
+                    "buy_call",
+                    "buy_put",
+                    "exercise_call",
+                    "exercise_put",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        }
+    },
+    "2": {
+        "asset": "USDC",
+        "support_actions": {
+            "long": {
+                "buy": "true",
+                "exercise": "true",
+                "limit_order": "true"
+            }
+        }
+    }
+}

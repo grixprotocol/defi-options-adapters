@@ -1,0 +1,26 @@
+{
+    "1": {
+        "name": "Moby",
+        "location": "/moby"
+    },
+    "2": {
+        "name": "Premia",
+        "location": "/premia"
+    },
+    "3": {
+        "name": "Derive",
+        "location": "/lyra"
+    },
+    "4": {
+        "name": "Stryke",
+        "location": "/stryke"
+    },
+    "5": {
+        "name": "Aevo",
+        "location": "/aevo"
+    },
+    "6": {
+        "name": "Zomma",
+        "location": "/zomma"
+    }
+}
