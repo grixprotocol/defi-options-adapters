@@ -7,6 +7,10 @@
                     "buy_put",
                     "exercise_call",
                     "exercise_put",
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "short_call_quotes",
+                    "short_put_quotes",
                     "close_via_limit_order",
                     "close_via_market_order"
                 ]
@@ -19,6 +23,10 @@
                     "buy_put",
                     "exercise_call",
                     "exercise_put",
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "short_call_quotes",
+                    "short_put_quotes",
                     "close_via_limit_order",
                     "close_via_market_order"
                 ]
@@ -26,12 +34,154 @@
         }
     },
     "2": {
-        "asset": "USDC",
-        "support_actions": {
-            "long": {
-                "buy": "true",
-                "exercise": "true",
-                "limit_order": "true"
+        "ETH": {
+            "support_actions": {
+                "long": [
+                    "buy_call",
+                    "buy_put",
+                    "exercise_call",
+                    "exercise_put",
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        },
+        "BTC": {
+            "support_actions": {
+                "long": [
+                    "buy_call",
+                    "buy_put",
+                    "exercise_call",
+                    "exercise_put",
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        }
+    },
+    "3": {
+        "ETH": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "short_call_quotes",
+                    "short_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        },
+        "BTC": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "short_call_quotes",
+                    "short_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        }
+    },
+    "4": {
+        "ETH": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        },
+        "BTC": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        }
+    },
+    "5": {
+        "ETH": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "short_call_quotes",
+                    "short_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        },
+        "BTC": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "short_call_quotes",
+                    "short_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        }
+    },
+    "6": {
+        "ETH": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "short_call_quotes",
+                    "short_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        },
+        "BTC": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "short_call_quotes",
+                    "short_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        }
+    },
+    "7": {
+        "ETH": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
+            }
+        },
+        "BTC": {
+            "support_actions": {
+                "long": [
+                    "long_call_quotes",
+                    "long_put_quotes",
+                    "close_via_limit_order",
+                    "close_via_market_order"
+                ]
             }
         }
     }

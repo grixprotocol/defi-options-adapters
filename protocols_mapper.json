@@ -1,26 +1,44 @@
 {
     "1": {
         "name": "Moby",
-        "location": "/moby"
+        "location": "/moby",
+        "positionsUnderlyingAsset": ["ETH", "BTC"],
+        "payWithAssets": ["USDC", "WETH", "WBTC"]
     },
     "2": {
         "name": "Premia",
-        "location": "/premia"
+        "location": "/premia",
+        "positionsUnderlyingAsset": ["ETH", "BTC"],
+        "payWithAssets": ["USDC", "WETH", "WBTC"]
     },
     "3": {
         "name": "Derive",
-        "location": "/lyra"
+        "location": "/lyra",
+        "positionsUnderlyingAsset": ["ETH", "BTC"],
+        "payWithAssets": ["USDC", "WETH", "WBTC"]
     },
     "4": {
         "name": "Stryke",
-        "location": "/stryke"
+        "location": "/stryke",
+        "positionsUnderlyingAsset": ["ETH", "BTC"],
+        "payWithAssets": ["USDC", "WETH", "WBTC"]
     },
     "5": {
         "name": "Aevo",
-        "location": "/aevo"
+        "location": "/aevo",
+        "positionsUnderlyingAsset": ["ETH", "BTC"],
+        "payWithAssets": ["USDC", "WETH", "WBTC"]
     },
     "6": {
         "name": "Zomma",
-        "location": "/zomma"
+        "location": "/zomma",
+        "positionsUnderlyingAsset": ["ETH", "BTC"],
+        "payWithAssets": ["USDC", "WETH", "WBTC"]
+    },
+    "7": {
+        "name": "Ithaca",
+        "location": "/ithaca",
+        "positionsUnderlyingAsset": ["ETH", "BTC"],
+        "payWithAssets": ["USDC", "WETH", "WBTC"]
     }
 }
